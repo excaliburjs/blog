@@ -1,0 +1,21 @@
+{
+  "title": "Blog - Excalibur.js",
+  "url": "https://blog.excaliburjs.com/",
+  "language": "en",
+  "description": "News and updates for Excalibur, a 2D engine for building games with HTML and JavaScript",
+  "feed": {
+    "subtitle": "News and updates for Excalibur, a 2D engine for building games with HTML and JavaScript",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://blog.excaliburjs.com/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://blog.excaliburjs.com/feed/feed.json"
+  },
+  "author": {
+    "name": "Excalibur.js",
+    "email": "excaliburjs@gmail.com",
+    "url": "https://github.com/excaliburjs"
+  }
+}
