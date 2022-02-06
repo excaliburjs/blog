@@ -1,3 +1,9 @@
 [build]
   publish = "_site"
   command = "DEBUG=* eleventy"
+
+[[redirects]]
+ from = "/post/82857055354/excalibur-v0-2-0-released"
+  to = "/posts/excalibur-0-2-0-released/"
+  status = 302
+  force = true # COMMENT: ensure that we always redirect
