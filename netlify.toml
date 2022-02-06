@@ -7,3 +7,69 @@
   to = "/posts/excalibur-0-2-0-released/"
   status = 302
   force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+ from = "/post/87272679712/ludum-dare-29-postmortem-kraken-unchained"
+  to = "/posts/ludum-dare-29-retrospective/"
+  status = 302
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+ from = "/post/106844264777/ludum-dare-31-postmortem-sweep-stacks"
+  to = "/posts/ludum-dare-31-retrospective/"
+  status = 302
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+ from = "/post/120659042817/excalibur-050-release"
+  to = "/posts/excalibur-0-5-0-release/"
+  status = 302
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+ from = "/post/144167010972/hexshaper-postmortem"
+  to = "/posts/ludum-dare-35-retrospective/"
+  status = 302
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+ from = "/post/149679251857/excalibur-070-release"
+  to = "/posts/excalibur-0-7-0-release/"
+  status = 302
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+ from = "/post/154046946732/excalibur-080-release"
+  to = "/posts/excalibur-0-8-0-release/"
+  status = 302
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+ from = "/post/161334104662/ludum-dare-38-postmortem"
+  to = "/posts/ludum-dare-38-retrospective/"
+  status = 302
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+ from = "/post/169351812093/five-years-excalibur"
+  to = "/posts/five-years-of-excalibur/"
+  status = 302
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+ from = "/post/173913459717/ludum-dare-41"
+  to = "/posts/ludum-dare-41-retrospective/"
+  status = 302
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+ from = "/post/185453729767/excalibur-0230-release"
+  to = "/posts/excalibur-0-23-0-release/"
+  status = 302
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+ from = "/post/664075998266114048/excalibur-0250-release"
+  to = "/posts/excalibur-0-25-0-released/"
+  status = 302
+  force = true # COMMENT: ensure that we always redirect
