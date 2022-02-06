@@ -2,6 +2,7 @@
 title: Excalibur v0.25.0 Released!
 # description: This is a post on My Blog about agile frameworks.
 date: 2021-10-03
+canonical: "https://erikonarheim.com/posts/excalibur-v025-released/"
 layout: layouts/post.njk
 ---
 
