@@ -5,7 +5,8 @@
   --darkgray: #333;
   --navy: #17050F;
   --blue: #082840;
-  --white: #fff;
+  --excaliburblue: #2185d0;
+  --white: #ffffff;
 }
 
 /* Global stylesheet */
@@ -21,6 +22,17 @@ body {
   color: var(--darkgray);
   background-color: var(--white);
 }
+
+main, header, footer, hr {
+  max-width: -webkit-calc(900px - (30px * 2));
+  max-width: calc(900px - (30px * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+  /* background-color: var(--white); */
+}
+
 p:last-child {
   margin-bottom: 0;
 }
@@ -46,12 +58,15 @@ main :first-child {
   margin-top: 0;
 }
 header {
-  border-bottom: 1px dashed var(--lightgray);
+  border-bottom: 1px solid var(--lightgray);
 }
 header:after {
   content: "";
   display: table;
   clear: both;
+}
+footer {
+  border-top: 1px solid var(--lightgray);
 }
 table {
   margin: 1em 0;
@@ -124,7 +139,7 @@ code {
   padding: 0 1rem;
   float: left;
   margin: 1rem 0; /* 16px /16 */
-  font-size: 1em; /* 16px /16 */
+  font-size: 1.15em;
 }
 .home :link:not(:hover) {
   text-decoration: none;
@@ -136,17 +151,24 @@ code {
   list-style: none;
   float: left;
   margin-left: 1em;
+  /* font-family: Source Sans Pro,Helvetica Neue,Arial,Helvetica,sans-serif; */
 }
 .nav-item {
   display: inline-block;
   margin-right: 1em;
+  font-size: 1.15em;
 }
+/* .nav-item a[href] {
+  color: white;
+} */
 .nav-item a[href]:not(:hover) {
   text-decoration: none;
+  /* color: white; */
 }
 .nav-item-active {
+  /* color: white; */
   font-weight: 700;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 /* Posts list */
@@ -158,13 +180,13 @@ code {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  counter-increment: start-from -1;
+  /* counter-increment: start-from -1; */
   line-height: 1.8;
 }
 .postlist-item:before {
   display: inline-block;
   pointer-events: none;
-  content: "" counter(start-from, decimal-leading-zero) ". ";
+  /* content: "" counter(start-from, decimal-leading-zero) ". "; */
   line-height: 100%;
   text-align: right;
 }
