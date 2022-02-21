@@ -4,7 +4,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title or metadata.title }}</title>
+    <meta property="og:site_name" content="Excalibur.js">
+    <meta property="og:title" content="{{ title if title else 'Excalibur.js | Blog' }}">
+    <meta property="og:description" content="{{ description if description else ''}}">
+    <!-- 1200 x 630 -->
+    <meta property="og:image" content="{{ heroImage if heroImage else 'https://blog.excaliburjs.com/img/excaliburjs-index.png'}}">
+    <meta property="og:url" content="https://https://blog.excaliburjs.com/{{ page.url }}">
+    <meta property="og:type" content="website">
+
     <meta name="description" content="{{ description or metadata.description }}">
+
+    <meta property="twitter:title" content="{{ title if title else 'Excalibur.js | Blog' }}">
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:url" content="https://https://blog.excaliburjs.com/{{ page.url }}">
+    <meta property="twitter:image" content="{{ heroImage if heroImage else 'https://blog.excaliburjs.com/img/excaliburjs-index.png'}}">
+    <meta property="twitter:description" content="{{ description if description else ''}}">
+    <meta property="twitter:site" content="@excaliburjs">
+    <meta property="twitter:creator" content="@excaliburjs">
+
     {% if canonical %}
       <link rel="canonical" href="{{ canonical }}" />
     {% endif %}
