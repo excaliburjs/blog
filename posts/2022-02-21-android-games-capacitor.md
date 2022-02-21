@@ -72,11 +72,11 @@ After that we can open it in Android Studio with the capacitor commandline
 
 Building the project and running the first time can take some time, so be patient after hitting the big green play button.
 
-![](/img/2022-02-21-android-games-capacitor/start.png)
+![Android Studio Start Bar with Green Play Triangle Button](/img/2022-02-21-android-games-capacitor/start.png)
 
 ProTip<sup>TM</sup> **The Emulator is MEGA slow** to start so once you get it on, leave it on. You can redeploy the app to a running emulator with the "re-run" hightlighted below.
 
-![](/img/2022-02-21-android-games-capacitor/restart-activity.png)
+![Android Studio Restart Activity Button](/img/2022-02-21-android-games-capacitor/restart-activity.png)
 
 
 If your Android emulator crashes on the first try like mine did with something like `The emulator process for AVD Pixel_3a_API_30_x86 was killed`, this [youtube video](https://www.youtube.com/watch?v=AOK9ZxiBOGg) was super helpful. For me the problem was disk space, the AVD needs 7GBs of disk space to start so I had to clean out some junk on the laptop 😅
@@ -85,7 +85,7 @@ If your Android emulator crashes on the first try like mine did with something l
 
 The dev cycle is pretty slick, run `npm cap copy android` to move your built JS living in the `www` to the right android folder. The default app looks like this after running it in the android emulator.
 
-![](/img/2022-02-21-android-games-capacitor/emulator.png)
+![Default Capacitor screen on Android emulator](/img/2022-02-21-android-games-capacitor/emulator.png)
 
 
 ### Setting Up Your JS Build
@@ -104,7 +104,7 @@ Recently I've been a big fan of [parcel](https://parceljs.org/)(v1) for quick an
 
 I copied the generated `manifest.json`, `index.html`, and `css/` folder out of the original generated `www/` and put it into `game/`. 
 
-![](/img/2022-02-21-android-games-capacitor/game-folder.png)
+![Folder structure of capacitor frontend project](/img/2022-02-21-android-games-capacitor/game-folder.png)
 
 We need to setup our development and final build script in the `package.json`. The npm `"start"` script tells parcel to run a dev server and use `game/index.html` as our entry point to the app and follow the links and build them (notice the magic inline `<script type="module" src="./main.ts"></script>`) ✨ 
 
@@ -176,7 +176,7 @@ const mainloop: FrameRequestCallback = (now) => {
 mainloop(performance.now());
 ```
 
-![](/img/2022-02-21-android-games-capacitor/examplerunning.png)
+![Vanilla js game running in Android emulator](/img/2022-02-21-android-games-capacitor/examplerunning.png)
 
 
 ## Using Excalibur🗡
@@ -227,7 +227,7 @@ Note, depending on your emulator settings you may need to tweak it's graphics se
 
 Tada! 🎉 
 
-![](/img/2022-02-21-android-games-capacitor/excalibur-capacitor.gif)
+![Animated gif of excalibur sword running with Capacitor in Android](/img/2022-02-21-android-games-capacitor/excalibur-capacitor.gif)
 
 Hope this helps you web game devs out there!
 
