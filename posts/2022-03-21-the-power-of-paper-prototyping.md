@@ -1,7 +1,7 @@
 ---
 title: The power of paper prototyping for virtual games
 # description: This is a post on My Blog about agile frameworks.
-date: 2022-03-21
+date: 2022-03-22
 layout: layouts/post.njk
 ---
 
@@ -15,16 +15,16 @@ Paper prototyping can also help avoid the “sunk-cost fallacy”, which encoura
 
 ## Identify problems early
 
-You also have the opportunity to fix game design problems you've devoted time to implementing them in the actual software. While we were [paper prototyping Sweep Stacks](https://blog.excaliburjs.com/posts/ludum-dare-31-retrospective/#scope), we uncovered a game design complication with how the board filled up over time. Without having to write any code, we were able to determine a solution for the issue and avoid having to deal with it as a software bug.
+You also have the opportunity to fix game design problems before you've devoted time to implementing them in the actual software. While we were [paper prototyping Sweep Stacks](https://blog.excaliburjs.com/posts/ludum-dare-31-retrospective/#scope), we uncovered a game design complication with how the board filled up over time. Without having to write any code, we were able to determine a solution for the issue and implement it directly when we started programming the game.
 
 ## Easier once you start writing code
 
-If you’ve spent time prototyping, you'll have a more concrete idea of what you want your game to be, and when you actually start writing code, you can start with a more specific idea of what you want to accomplish.We’ve found it’s much easier to visualize and architect our code when we have a clear idea of how the rules and systems of a game will work together.
+If you’ve spent time prototyping, you'll have a more concrete idea of what you want your game to be. When you actually start writing code, you can begin with a more specific idea of what you want to accomplish. We’ve found it’s much easier to visualize and architect our code when we have a clear idea of how the rules and systems of a game will work together.
 
 ## Virtual paper
 
-While we call it “paper prototyping”, this process doesn't literally have to be done with paper, or any physical components at all. Virtual paper prototyping can be just as effective, and allows you to collaborate more easily with remote teammates. There are plenty of wireframing and “virtual tabletop” web apps out there that you can use to put together a digital prototype for your game.
+While it's called “paper prototyping”, this process doesn't literally have to be done with paper, or any physical components at all. Virtual paper prototyping can be just as effective, and allows you to collaborate more easily with remote teammates. There are plenty of wireframing and “virtual tabletop” web apps out there that you can use to put together a digital prototype for your game.
 
-## Give it a try
+## Give paper prototyping a try
 
 The next time you’re working on a game, try doing some prototyping before you write any code. Adjust your rules, modify your designs, and dream of what you want to build.
