@@ -23,7 +23,7 @@ If you’ve spent time prototyping, you'll have a more concrete idea of what you
 
 ## Virtual paper
 
-While it's called “paper prototyping”, this process doesn't literally have to be done with paper, or any physical components at all. Virtual paper prototyping can be just as effective, and allows you to collaborate more easily with remote teammates. There are plenty of wireframing and “virtual tabletop” web apps out there that you can use to put together a digital prototype for your game.
+While it's called “paper prototyping”, this process doesn't literally have to be done with paper, or any physical components at all. Virtual paper prototyping can be just as effective, and allows you to collaborate more easily with remote teammates. There are plenty of wireframing and “virtual tabletop” web apps out there that you can use to put together a digital prototype for your game (we usually use [Excalidraw](https://excalidraw.com/)).
 
 ## Give paper prototyping a try
 
